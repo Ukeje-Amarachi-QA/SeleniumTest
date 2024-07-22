@@ -2,24 +2,24 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T04:51:24Z" name="Default suite" finished-at="2024-07-18T04:52:08Z" duration-ms="44909">
+  <suite started-at="2024-07-22T00:43:55Z" name="Default suite" finished-at="2024-07-22T00:44:53Z" duration-ms="57249">
     <groups>
     </groups>
-    <test started-at="2024-07-18T04:51:24Z" name="Default test" finished-at="2024-07-18T04:52:08Z" duration-ms="44909">
+    <test started-at="2024-07-22T00:43:55Z" name="Default test" finished-at="2024-07-22T00:44:53Z" duration-ms="57249">
       <class name="SeleniumPackage.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-18T05:51:24Z" name="setup" finished-at="2024-07-18T05:51:30Z" duration-ms="6838" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-22T01:43:55Z" name="setup" finished-at="2024-07-22T01:44:14Z" duration-ms="19042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-18T05:51:30Z" name="invalidLoginTest" finished-at="2024-07-18T05:51:56Z" duration-ms="25443" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-22T01:44:14Z" name="invalidLoginTest" finished-at="2024-07-22T01:44:33Z" duration-ms="18670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="successfulLoginTest()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-18T05:51:56Z" name="successfulLoginTest" finished-at="2024-07-18T05:52:02Z" duration-ms="6606" status="PASS">
+        <test-method signature="successfulLoginTest()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-22T01:44:33Z" name="successfulLoginTest" finished-at="2024-07-22T01:44:47Z" duration-ms="13414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-18T05:52:02Z" name="tearDown" finished-at="2024-07-18T05:52:08Z" duration-ms="5955" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumPackage.LoginTest@63f259c3]" started-at="2024-07-22T01:44:47Z" name="tearDown" finished-at="2024-07-22T01:44:53Z" duration-ms="6049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

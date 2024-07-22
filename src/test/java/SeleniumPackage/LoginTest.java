@@ -53,6 +53,13 @@ public class LoginTest {
         String pageTitle = driver.getTitle();
         if (pageTitle.equals("OrangeHRM")) {
             System.out.println("Login successful");
+            
+         // Adding delay after successful login
+            try {
+                Thread.sleep(10000); // Wait for 10 seconds after successful login
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
             // Now perform logout
             logout();
@@ -90,7 +97,7 @@ public class LoginTest {
     }
 
     public void logout() {
-        WebDriverWait wait = new WebDriverWait(driver, 10); // 10 seconds wait
+        WebDriverWait wait = new WebDriverWait(driver, 15); // 10 seconds wait
 
         // Click on the profile dropdown to expand it
         By profileDropdown = By.xpath("//p[@class='oxd-userdropdown-name']");
@@ -107,7 +114,7 @@ public class LoginTest {
 
     @AfterTest
     public void tearDown() throws InterruptedException {
-        Thread.sleep(5000); // Wait for 5 seconds before quitting
+        Thread.sleep(5000); // Wait for  seconds before quitting
         driver.close();
         driver.quit();
     }
