@@ -1,20 +1,19 @@
-name: Python application
+name: Run Python tests
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out repository
+    - name: Checkout code
       uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.12'
+        python-version: 3.12
 
     - name: Install dependencies
       run: |
@@ -22,5 +21,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run tests
-      run: |
-        python -m unittest discover -s tests -p "*.py"
+      run: python -m unittest discover -s tests -p "test_*.py"
